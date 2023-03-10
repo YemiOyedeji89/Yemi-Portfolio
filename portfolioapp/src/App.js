@@ -1,11 +1,34 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
+import Navbar from "./components/Navbar/Navbar";
+import Home from "./components/pages/homePage/Home";
+import ProjectGallery from "./components/pages/ProjectGallery";
+import Tools from "./components/pages/Tools";
+import Contact from "./components/pages/Contact";
+import Footer from "./components/Footer";
+
 
 function App() {
   return (
-    <div className="App">
-      <p>Portfolio</p>
-    </div>
+    <Router>
+
+      <div className="App">
+        <Navbar/>
+        <Routes>
+         <Route path="/" element={<Home />} />
+         <Route path="projectgallery" element={<ProjectGallery/>} />
+         <Route path="Tools" element={<Tools />} />
+         <Route path="Contact" element={<Contact />} />
+        </Routes>
+
+
+
+        <Footer />
+      </div>
+
+    </Router>
+   
   );
 }
 
