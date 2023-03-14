@@ -4,7 +4,10 @@ import './navbarStyle.css';
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <div id='navFixed'>
+
+   
+    <nav className="navbar navbar-expand-lg navbar-light bg-light" >
       <Link className="navbar-brand" to="/">
          Home
       </Link>
@@ -50,6 +53,7 @@ function Navbar() {
         
       </div>
     </nav>
+    </div>
   )
 }
 
