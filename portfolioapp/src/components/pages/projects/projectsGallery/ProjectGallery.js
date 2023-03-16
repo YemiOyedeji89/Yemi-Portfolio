@@ -1,38 +1,29 @@
-import React, { Component } from "react";
-
+import React from "react";
 import Title from "../ProjectTitle/Title";
 import ProjectsArr from '../projectsArr.json';
- import Projects from "../Projects"; 
- 
 
+
+///FUNCTION TO DISPLAY ALL THE PROJECT WITH DESCRIPTION
 
 function ProjectGallery () {
-
-
-
+  
+ 
   return(
-    ProjectsArr && ProjectsArr.map(projectsArr => (
-      <Title
-      key={projectsArr.id}
-      projectTitle={projectsArr.projectTitle}
-      description ={projectsArr.description}
-      
-      />
-      
-
-    ))
-
-     /*  <Projects
-      key={ProjectsArr.id}
-      projectTitle={ProjectsArr.projectTitle}
-      deployedURL={ProjectsArr.deployedURL}
-      githubRepoURL={ProjectsArr.githubRepoURL}
-      image={ProjectsArr.image}
-      />  */
+    <div>
+      {ProjectsArr.map(projectsArr => (
+          <div>
+            <Title
+            key={projectsArr.id}
+            id={projectsArr.id}
+            projectTitle={projectsArr.projectTitle}
+            description ={projectsArr.description}
+            />
+            
+          </div>
+        ))
+      }
+    </div>
   )
-  
-  
-  
   
   
 }

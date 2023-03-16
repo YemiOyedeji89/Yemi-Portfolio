@@ -1,6 +1,6 @@
 import React from "react";
 
-
+/////PROPS TO RENDER A SINGLE INSTANCE OF THE PROJECT WHEN CLICKED
 function Projects(props) {
 
   return (
