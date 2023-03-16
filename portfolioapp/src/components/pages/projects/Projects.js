@@ -1,26 +1,47 @@
 import React from "react";
+import { Link} from "react-router-dom";
+import ProjectGallery from "./projectsGallery/ProjectGallery";
+
+import './projectsGallery/style.css'
+
 
 /////PROPS TO RENDER A SINGLE INSTANCE OF THE PROJECT WHEN CLICKED
 function Projects(props) {
 
   return (
-    <div className="card">
-      <div className="img-container">
-        <img alt={props.projectTitle} src={props.image} />
+    <div className="card dis-card jumbotron">
+
+      
+      <img className="card-img-top pro-image " alt={props.projectTitle} src=
+      {props.image} />
+      <div className="card-body">
+        <h2 className="card-title">
+             {props.projectTitle}
+          </h2>
+          <p className="card-text">{props.description}</p>
       </div>
-      <div className="content">
-        <ul>
-          <li>
-            <strong>Project Title:</strong> {props.projectTitle}
+     
+      
+      <div className="card-body">
+
+        <ul className="list-group list-group-flush">
+
+          <li className="list-group-item">
+            <Link to={props.deployedURL}>
+             <strong className="card-link">Deployed URL</strong> 
+            </Link>
           </li>
-          <li>
-            <strong>URL:</strong> {props.deployedURL}
+
+          <li className="list-group-item">
+            <Link to={props.githubRepoURL}>
+              <strong className="card-link">GitHub Repo</strong> 
+            </Link>
           </li>
-          <li>
-            <strong>GitHub Repo:</strong> {props.githubRepoURL}
-          </li>
+
         </ul>
+        
       </div>
+      
     </div>
   )
 };

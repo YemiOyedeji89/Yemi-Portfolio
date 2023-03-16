@@ -20,7 +20,7 @@ function Home() {
         <p className="lead">
           <NavLink
             to="/projectgallery"
-            className="btn btn-primary btn-lg"
+            className="btn "
             >
             Check it out
           </NavLink>

@@ -1,0 +1,23 @@
+.dis-card{
+    width: 40rem;
+   margin-left: 40px;
+   margin-right: 40px;
+   align-content: center !important;
+   justify-content: center !important;
+   align-items: center;
+}
+.pro-image{
+    border-radius: 10%;
+    height: 400px;
+    width: 500px;
+    margin-top: 20px;
+    padding: 10px;
+    
+}
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+    font-style: italic;
+    color: #080606;
+    font: weight 20px;
+}

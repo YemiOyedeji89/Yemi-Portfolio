@@ -1,6 +1,6 @@
 [
     {
-        "id": 1,
+        "id": 0,
         "projectTitle": "Console-Finances",
         "deployedURL": "https://yemioyedeji89.github.io/Console-Finances/",
         "githubRepoURL": "https://github.com/YemiOyedeji89/Console-Finances",
@@ -8,7 +8,7 @@
         "description": "This report is generated using JavaScript programming language to analysize and generate the report."
     },
     {
-        "id": 2,
+        "id": 1,
         "projectTitle": "Daily-Planner",
         "deployedURL": "https://yemioyedeji89.github.io/Daily-Planner/",
         "githubRepoURL": "https://github.com/YemiOyedeji89/Daily-Planner",
@@ -16,7 +16,7 @@
         "description": "This project is about office hour daily planner agenda designed using JavaScript Language. It stores hourly input tasks for the day and save to local storage."
     },
     {
-        "id": 3,
+        "id": 2,
         "projectTitle": "PassWord Generator",
         "deployedURL": "https://yemioyedeji89.github.io/PassWordGenerator/",
         "githubRepoURL": "https://github.com/YemiOyedeji89/PassWordGenerator",
@@ -24,7 +24,7 @@
         "description": "This project is about an automatic password generator that auto generates passwords within the length of 10 and 64 for users based on certain user input option."
     },
     {
-        "id": 4,
+        "id": 3,
         "projectTitle": "Weather-Dashboard",
         "deployedURL": "https://yemioyedeji89.github.io/Weather-Dashboard/",
         "githubRepoURL": "https://github.com/YemiOyedeji89/Weather-Dashboard",
@@ -32,7 +32,7 @@
         "description": "This project is about office diplaying weather information for a searched city. It display the current weather and also a 5 day weather forcast. For rescent searches which is persisted on page load for easy access."
     },
     {
-        "id": 5,
+        "id": 4,
         "projectTitle": "ReadMe-Generator",
         "deployedURL": "https://github.com/YemiOyedeji89/ReadMe-Generator/blob/main/demo%20Video/ReadmeGenerator_Yemi%20Oyedeji.webm",
         "githubRepoURL": "https://github.com/YemiOyedeji89/ReadMe-Generator",
@@ -40,7 +40,7 @@
         "description": "This is a project about creating a ReadMe for a new project using Es6 using command-line application to accepts user input and then generate an md file based on the answers entered by the user."
     },
     {
-        "id": 6,
+        "id": 5,
         "projectTitle": "Team-Profile-Generator",
         "deployedURL": "",
         "githubRepoURL": "https://github.com/YemiOyedeji89/Team-Profile-Generator",

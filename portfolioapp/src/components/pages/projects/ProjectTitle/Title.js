@@ -9,23 +9,28 @@ function Title(props) {
    
 
     return (
+        <div className="divColm"> 
+
         
-        <Link to={`/projectgallery/${props.id}`}>
-        <div className="row">
-            <div className="col-sm-3">
-                <div className="card">
-                    <div class="card-body">
-                        
-                        <h5 className="card-title">{props.projectTitle}</h5>
-                        <p className="card-text">{props.description}</p>
-                        
+            <div className="row div-row">
+                <div className="col-lg-6 col-md-6 col-sm-6 shadow-lg">
+                    <div className="card jumbotron">
+                        <div class="card-body">
+                           
+                            <h2 className="card-title">{props.projectTitle}</h2>
+                            <p className="card-text">{props.description}</p>
+
+                            <Link to={`/projectgallery/${props.id}`}>
+                                <button className="btn">View project</button> 
+                            </Link>
+                            
+                        </div>
                     </div>
                 </div>
+                
             </div>
-            
         </div>   
-        </Link>
-        
+       
     )
 }
   
