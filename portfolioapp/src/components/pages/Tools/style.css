@@ -1,0 +1,20 @@
+
+.tool{
+    border-radius: 10%;
+    height: 150px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.card-div{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.div-row{
+    margin: 50px;
+}
+
+.tool-card-body{
+    background: radial-gradient(circle, rgba(140,142,94,1) 0%, rgba(147,141,147,1) 76%, rgba(85,155,170,1) 100%);
+}

@@ -1,0 +1,30 @@
+img{
+    border-radius: 50%;
+    height: 250px;
+    width: 200px;
+    
+}
+.jumbotron{
+    background: radial-gradient(circle, rgba(140,142,94,1) 0%, rgba(147,141,147,1) 76%, rgba(85,155,170,1) 100%);
+}
+h1{
+    font-size: 3rem;
+    font-weight: 700;
+    font-family:cursive !important;
+    color: rgb(12, 12, 12);
+}
+.myName{
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+    font-size: 30px !important;
+}
+
+.intro{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 40px;
+    margin: 20px;
+    margin-right: 120px;
+    margin-left: 120px;
+    
+}

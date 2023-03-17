@@ -1,0 +1,24 @@
+
+
+.cont-card{
+width: 30rem !important;
+margin-left: 20px !important;
+margin-right: 100px !important;
+margin-bottom: 80px !important;
+}
+.contact-form{
+    width: 30rem !important;
+    padding: 20px;
+}
+.contact-mssg, .list-group-item{
+    text-align: start;
+    padding: 20px;
+    font-weight:500;
+    
+}
+#contact-btn{
+    color: black;
+}
+.card-header, label{
+font-weight: bold;
+}

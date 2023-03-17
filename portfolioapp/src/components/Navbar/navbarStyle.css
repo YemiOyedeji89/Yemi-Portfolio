@@ -1,0 +1,12 @@
+
+#navFixed{
+    position: sticky;
+    top: 0;
+    background-color: rgb(215, 218, 52) !important;
+    z-index: 2;
+
+}
+.bg-light{
+    --bs-bg-opacity: 0 !important;
+    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+}

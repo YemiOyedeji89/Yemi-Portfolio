@@ -1,0 +1,18 @@
+
+.btn{
+    display: inline-block !important;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(221, 240, 137) !important;
+}
+.divColm{
+    width: 40rem;
+    margin-left: 200px;
+    margin-right: 100px;
+    align-content: center !important;
+    justify-content: center !important;
+    align-items: center;
+    
+    
+}
