@@ -5,9 +5,9 @@ import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/pages/homePage/Home";
 import ProjectGallery from "./components/pages/projects/projectsGallery/ProjectGallery";
 import Tools from "./components/pages/Tools/Tools";
-import Contact from "./components/pages/Contact";
+import Contact from "./components/pages/contact/Contact";
 import ProjectDetails from "./components/pages/projects/projectsGallery/ProjectDetails";
-import Footer from "./components/Footer";
+import Footer from "./components/footer/Footer";
 
 
 
@@ -15,7 +15,7 @@ function App() {
   return (
     <Router>
 
-      <div className="App">
+      <div className="App jumbotron">
         <Navbar/>
         <Routes>
          <Route path="/" element={<Home />} />
@@ -25,11 +25,12 @@ function App() {
          <Route path="Contact" element={<Contact />} />
         </Routes>
 
-        <Footer/>
+       
       </div>
 
+      <Footer/>
+
     </Router>
-   
   );
 }
 

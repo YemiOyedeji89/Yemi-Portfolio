@@ -9,10 +9,10 @@ function Title(props) {
    
 
     return (
-        <div className="divColm"> 
+        <div className="divColm "> 
 
         
-            <div className="row div-row">
+            <div className="row div-row  ">
                 <div className="col-lg-6 col-md-6 col-sm-6 shadow-lg">
                     <div className="card jumbotron">
                         <div class="card-body">

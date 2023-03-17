@@ -10,6 +10,9 @@ function ProjectGallery () {
  
   return(
     <div>
+      <h1 className="project-gallery-title">Project Gallery</h1>
+      <hr></hr>
+      <br></br>
       {ProjectsArr.map(projectsArr => (
           <div>
             <Title
